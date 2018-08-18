@@ -1,0 +1,50 @@
+{
+  "_from": "mpg123-static",
+  "_id": "mpg123-static@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-hcyEvlMw9ic3Ekny7adoWHHndoI=",
+  "_location": "/mpg123-static",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mpg123-static",
+    "name": "mpg123-static",
+    "escapedName": "mpg123-static",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mpg123-static/-/mpg123-static-1.0.4.tgz",
+  "_shasum": "85cc84be5330f627371249f2eda7685871e77682",
+  "_spec": "mpg123-static",
+  "_where": "C:\\Users\\HP-Probook",
+  "author": {
+    "name": "traveller"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "mpg123 static binaries for Mac OSX and Linux and Windows,use it to play mp3",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  },
+  "keywords": [
+    "mpg123",
+    "mpg123-static",
+    "mpg123 binary",
+    "mpg123 static",
+    "mp3 player",
+    "node mp3 player"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mpg123-static",
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "1.0.4"
+}

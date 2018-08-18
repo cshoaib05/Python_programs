@@ -1,4 +1,0 @@
-#!/bin/sh
-
-exec /usr/bin/mpg123.bin -o jack "$@"
-

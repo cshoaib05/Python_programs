@@ -800,6 +800,6 @@ elif (hr >= 17 and hr <= 24):
 #loop to continue executing multiple commands
 def start():
     while True:
-        assistant(myCommand())
-        #assistant(typeCommand())
+        #assistant(myCommand())
+        assistant(typeCommand())
 start()

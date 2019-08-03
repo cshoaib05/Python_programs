@@ -10,7 +10,7 @@ import os
 # path = r"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 # driver=webdriver.Firefox(path)
 a=[]
-word = 'teher jaa'
+word = input('ENTER THE SONG NAME:')
 
 url = 'https://www.youtube.com/results?search_query=+'+word
 yt='https://www.youtube.com'
@@ -32,6 +32,7 @@ for data in div.find_all(href=True):
 
 matching = [s for s in a if '/watch?' in s]
 asa =matching[0]
+print(asa)
 asa = asa.replace('/watch?v=','')
 print(asa)
 # webbrowser.open(DLlink)
@@ -40,8 +41,7 @@ ytplaylink = yt+matching[0]
 print(ytplaylink)
 word = word.replace(" ","_")
 word = '1_'+word
-print(word)
-os.system('"cd E:\\VIDEOS" && youtube-dl --output '+word+'.%(ext)s -i --extract-audio --audio-format mp3 --audio-quality 0 '+ytplaylink)
+os.system('"cd E:\\MUSIC" && youtube-dl --output '+word+'.%(ext)s -i --extract-audio --audio-format mp3 --audio-quality 0 '+ytplaylink)
 
 #webbrowser.open_new_tab(ytplaylink)
  
